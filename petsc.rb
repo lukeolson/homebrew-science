@@ -7,6 +7,7 @@ class Petsc < Formula
 
   depends_on :mpi => :cc
   depends_on :fortran
+  depends_on :x11
 
   def install
     ENV.deparallelize
